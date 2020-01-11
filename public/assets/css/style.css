@@ -1,0 +1,158 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+h1 {
+  padding-top: 10px;
+  color: rgb(209, 202, 202);
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.label {
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+}
+
+.burgList {
+  background: rgb(141, 151, 127);
+  border-radius: 25px;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+.wrapper {
+  background: rgb(40, 43, 36);
+  font-family: Arial;
+}
+.addBurg {
+  background: #768d87;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+.addForm {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.delete-burger {
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 18px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+}
+.delete-burger:hover {
+  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  background-color: #f24437;
+}
+.delete-burger:active {
+  position: relative;
+  top: 1px;
+}
+
+.change-devour {
+  box-shadow: 3px 4px 0px 0px #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 18px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2b665e;
+}
+.change-devour:hover {
+  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+  background-color: #6c7c7c;
+}
+.change-devour:active {
+  position: relative;
+  top: 1px;
+}
+
+.addBtn {
+  box-shadow: 3px 4px 0px 0px #f2fadc;
+  background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+  background-color: #dbe6c4;
+  border-radius: 18px;
+  border: 1px solid #b2b8ad;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ced9bf;
+}
+.addBtn:hover {
+  background: linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+  background-color: #9ba892;
+}
+.addBtn:active {
+  position: relative;
+  top: 1px;
+}
+
+#burg {
+  box-shadow: 3px 4px 0px 0px #f2fadc;
+  background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+  background-color: #dbe6c4;
+  border-radius: 18px;
+  border: 1px solid #b2b8ad;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ced9bf;
+}
+
+@media (max-width: 991.98px) {
+  li,
+  #burg,
+  .wrapper,
+  .delete-burger,
+  .change-devour,
+  .addBtn {
+    font-size: 10px;
+  }
+}
+@media (max-width: 766.98px) {
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 500.98px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .burgList {
+    width: 100%;
+  }
+}
